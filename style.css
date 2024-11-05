@@ -1,0 +1,150 @@
+/* General Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    height: 75px;
+    background-color: #ffe0b2;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-right: auto;
+    padding: 10px;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Add space between navbar links */
+  }
+  
+  .navbar .nav-links a {
+    background-color: #ffcc80;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar .nav-links a:hover {
+    background-color: #ff7043;
+    color: #fff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url("F1.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: top; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 20px; /* Add padding for smaller screens */
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    color: #ffffff;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    color: #ffffff;
+  }
+  
+  /* About and Other Sections */
+  .about,
+  .places,
+  .cuisine,
+  .plans,
+  .tips,
+  .contact {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ff7043;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Table Styling */
+  .plans table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffe0b2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plans th,
+  .plans td {
+    padding: 0.8em;
+    border: 1px solid #fff;
+  }
+  
+  .plans th {
+    background-color: #ff7043;
+    color: #fff;
+  }
+  
+  .plans td {
+    color: #333;
+  }
+  
+  .plans tr:hover {
+    background-color: #ffcc80;
+  }
+  
+  /* Grid Section Styling */
+  .grid {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .place img,
+  .dish img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    object-fit: cover;
+  }
+  
+  .place img:hover,
+  .dish img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact Section */
+  .contact .socials a {
+    color: #ff7043;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact .socials a:hover {
+    color: #333;
+  }
